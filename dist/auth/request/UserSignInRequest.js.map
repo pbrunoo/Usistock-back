@@ -1,0 +1,1 @@
+{"version":3,"file":"UserSignInRequest.js","sourceRoot":"","sources":["../../../src/auth/request/UserSignInRequest.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,6CAA8C;AAC9C,qDAA6C;AAC7C,gEAA2D;AAE3D,MAAa,iBAAiB;CAS7B;AALG;IAFC,qBAAW,CAAC,EAAE,IAAI,EAAE,MAAM,EAAE,CAAC;IAC7B,4BAAU,EAAE;;gDACQ;AAIrB;IAFC,qBAAW,CAAC,EAAE,IAAI,EAAE,MAAM,EAAE,CAAC;IAC7B,4BAAU,EAAE;;mDACW;AAR5B,8CASC"}

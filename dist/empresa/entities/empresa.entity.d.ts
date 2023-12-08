@@ -1,0 +1,34 @@
+import { Empresa } from './abstractions/empresa';
+import { Servicos } from './agreggate/servicos';
+export declare class EmpresaEntity implements Empresa {
+    id: Empresa['id'];
+    cnpj: Empresa['cnpj'];
+    inscrEstadual: Empresa['inscrEstadual'];
+    razaoSocial: Empresa['razaoSocial'];
+    nomeFantasia: Empresa['nomeFantasia'];
+    cep: Empresa['cep'];
+    endereco: Empresa['endereco'];
+    complemento: Empresa['complemento'];
+    numero: Empresa['numero'];
+    bairro: Empresa['bairro'];
+    cidade: Empresa['cidade'];
+    uf: Empresa['uf'];
+    telefone: Empresa['telefone'];
+    email: Empresa['email'];
+    status: Empresa['status'];
+    pis: Empresa['pis'];
+    cofins: Empresa['cofins'];
+    iss: Empresa['iss'];
+    inss: Empresa['inss'];
+    irrf: Empresa['irrf'];
+    csll: Empresa['csll'];
+    userCreated: Empresa['userCreated'];
+    userUpdated: Empresa['userUpdated'];
+    createAt: Empresa['createAt'];
+    updateAt: Empresa['updateAt'];
+    deletedAt: Date;
+    deletedUserId: string;
+    servicos: Servicos[];
+    addServicos(servicos: Servicos): void;
+    deleteServicos(cnae: number): void;
+}
